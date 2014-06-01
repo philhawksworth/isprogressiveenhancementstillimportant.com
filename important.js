@@ -3,7 +3,7 @@ var pe = {};
 // I'm adding some latency to prove a point, but your network provider 
 // or connection location might be adding some of its own. 
 // That's one of the points, we just can't know.
-pe.latency = 1000;
+pe.latency = 2000;
 
 
 // go!
