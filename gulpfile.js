@@ -5,7 +5,7 @@ var connect = require('gulp-connect');
 gulp.task('build', function() {
   // Usually we would minify and concatenate, but on this project
   // we'll just throw everything into the dist folder
-  return gulp.src(["src/*"])
+  return gulp.src(["src/*", "CNAME"])
     .pipe(gulp.dest('dist'));
 });
 

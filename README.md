@@ -1,4 +1,4 @@
-# isprogressiveenahancementstillimportant.com
+## isprogressiveenahancementstillimportant.com
 
 A simple site which asks, "is Progressive Enahancement still important?"
 

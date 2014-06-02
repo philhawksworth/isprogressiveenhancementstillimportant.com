@@ -12,7 +12,7 @@ body {
 }
 
 article {
-  padding:3em 0 5em;
+  padding:3em 3em 5em;
   background-color: #fff;
 }
 
@@ -76,7 +76,7 @@ blockquote p {
 
 .source {
   background-color: #e0e0e0;
-  padding: 0.5em 1em;
+  padding: 1em 1em;
   margin: 1em 0 0;
 }
 

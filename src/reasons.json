@@ -2,15 +2,18 @@
   "reasons" : [
   
   {
-    "title" : "Jake's article",
-    "url" : "http://jakearchibald.com",
-    "description" : "Jake's article about PE being important"
+    "title" : "Progressive enhancement is faster",
+    "url" : "http://www.smashingmagazine.com/2013/09/03/progressive-enhancement-is-faster/",
+    "description" : "Arguments for why PE is important for performance by Jake Archibald on Smashing Magazine."
   },
   {
-    "title" : "Another article",
-    "url" : "http://jakearchibald.com",
-    "description" : "Another article about PE being important"
+    "title" : "Progressive Enhancement",
+    "url" : "https://www.gov.uk/service-manual/making-software/progressive-enhancement.html",
+    "description" : "How to create pages that work regardless of browser capability. An post by the GDS team on Gov.uk"
+  },
+  {
+    "title" : "For a future friendly web",
+    "url" : "http://alistapart.com/article/for-a-future-friendly-web",
+    "description" : "An article by Brad Frost on A List Apart."
   }
-
-
 ]}

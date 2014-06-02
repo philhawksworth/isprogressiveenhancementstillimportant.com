@@ -3,7 +3,7 @@ var pe = {};
 // I'm adding some latency to prove a point, but your network provider 
 // or connection location might be adding some of its own. 
 // That's one of the points, we just can't know.
-pe.latency = 2000;
+pe.latency = 200;
 
 
 // go!
@@ -11,7 +11,7 @@ pe.init = function() {
   setTimeout(function(){ pe.getAnswer(); }, pe.latency);
 };
 
-// populte the content of the page which answers the question.
+// populate the content of the page which answers the question.
 pe.getAnswer = function() {
   console.log("Getting the answer to the question, 'is progressive enhancement still important?'...");
   $.getJSON('/answer.json', function(data) {
@@ -52,7 +52,7 @@ pe.getReasons = function() {
 
 // Ready. LEt's do this!
 jQuery(document).ready(function($) {
-  console.log("We have a DOM. We can start populating things.");
+  console.log("We have a DOM. Now we can start populating things.");
   pe.init();
 });
 
